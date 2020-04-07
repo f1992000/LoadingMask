@@ -1,0 +1,23 @@
+/*  Loading Mask and Indicator*/
+.loadingMask{
+	width:100%;
+	height:100%;
+	background-color:#000;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.2;
+	opacity:0.2;
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:none;
+	z-index:999;
+}
+.loadingIndicator{
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:3rem;
+	height:3rem;
+	display:none;
+	z-index:1000;
+}
